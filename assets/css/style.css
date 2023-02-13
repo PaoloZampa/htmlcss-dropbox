@@ -23,8 +23,18 @@
     display: flex;
 }
 
-.container-big {
+.container-95 {
     width: 95%;
+    margin: auto;
+}
+
+.container-80 {
+    width: 80%;
+    margin: auto;
+}
+
+.container-70 {
+    width: 80%;
     margin: auto;
 }
 
@@ -38,12 +48,40 @@
     width: 50%;
 }
 
+.debug .container-80{
+    height: 700px;
+    background-color: #0093ce;
+}
+
+.debug .col-4{
+    margin: 1rem;
+    height: 800px;
+    background-color: #61082b;
+}
+
+.debug .col-12{
+    margin: auto;
+    height: 300px;
+    background-color: #811478;
+}
+
 /* #endregion debug */
 
 /* #region header */
 /* #endregion header */
 
 /* #region mian */
+.jumbotron{
+    background-color: #b4d0e7;
+}
+
+.col-4{
+    width: calc(100% / 12 * 4);
+}
+
+.col-12{
+    width: calc(100% / 12 * 12);
+}
 /* #endregion mian */
 
 /* #region footer */
