@@ -23,6 +23,10 @@
     display: flex;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 .container-95 {
     width: 95%;
     margin: auto;
@@ -54,7 +58,7 @@
 }
 
 .debug .col-4{
-    margin: 1rem;
+    padding: 1rem;
     height: 800px;
     background-color: #61082b;
 }
@@ -65,6 +69,16 @@
     background-color: #811478;
 }
 
+.debug .content{
+    height: 600px;
+    width: 40%;
+    background-color: #ffd830;
+}
+
+.debug .users .container-70{
+    height: 300px;
+    background-color: #0d2481;
+}
 /* #endregion debug */
 
 /* #region header */
