@@ -3,3 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* #region utilities */
+:root {
+    --db-light: #ffffff;
+    --db-lightblue: #b4d0e7;
+    --db-dark: #000000;
+    --db-buttons: #0061ff;
+    --db-green: #a2d39b;
+    --db-darkblue: #0093ce;
+    --db-darkred: #61082b;
+    --db-lightred: #ff1c1c;
+    --db-red: #d5001f;
+    --db-darkerblue: #0d2481;
+    --db-yellow: #ffd830;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.container-big {
+    width: 95%;
+    margin: auto;
+}
+
+/* #endregion utilities */
+
+/* #region debug */
+.debug .menu-left,
+.menu-right {
+    height: 80px;
+    background-color: var(--db-green);
+    width: 50%;
+}
+
+/* #endregion debug */
+
+/* #region header */
+/* #endregion header */
+
+/* #region mian */
+/* #endregion mian */
+
+/* #region footer */
+/* #endregion footer */
