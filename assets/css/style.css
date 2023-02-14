@@ -320,6 +320,60 @@ body {
     color: #0093ce
 }
 
+/* brand */
+
+.col-6 img {
+    width: 100%;
+    padding: 3rem;
+    filter: invert(1);
+}
+
+.brand [class^="card"] {
+    min-height: 300px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-green {
+    background-color: var(--db-green);
+}
+
+.card-blackred {
+    background-color: var(--db-darkred);
+}
+
+.card-dark-blue {
+
+    background-color: var(--db-darkblue);
+}
+
+.card-light-red {
+    background-color: var(--db-lightred);
+}
+
+.card-red {
+    background-color: var(--db-red);
+}
+
+.card-light-blue {
+    background-color: var(--db-lightblue);
+}
+
+.card-blue {
+    background-color: var(--db-darkerblue);
+}
+
+.card-yellow {
+    background-color: var(--db-yellow);
+}
+
+
+.hr {
+    margin-left: 2rem;
+    width: 30%;
+    border-top: 1px solid lightgray;
+}
 
 /* #endregion mian */
 
