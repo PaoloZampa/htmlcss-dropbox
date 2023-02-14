@@ -27,7 +27,7 @@ body {
     display: flex;
 }
 
-.wrap{
+.wrap {
     flex-wrap: wrap;
 }
 
@@ -48,213 +48,233 @@ body {
     max-width: 1152px;
 }
 
-.col-2{
+.col-2 {
     width: calc(100% / 12 * 2);
 }
 
-.col-4{
+.col-4 {
     width: calc(100% / 12 * 4);
 }
 
-.col-6{
+.col-6 {
     width: calc(100% / 12 * 6)
 }
 
-.col-8{
+.col-8 {
     width: calc(100% / 12 * 8);
 }
 
-.col-10{
+.col-10 {
     width: calc(100% / 12 * 10);
 }
 
-.col-12{
+.col-12 {
     width: calc(100% / 12 * 12);
 }
 
-.ptb-1{
+.ptb-1 {
     padding: 1rem 0;
 }
 
-.m-2{
+.ptb-2 {
+    padding: 2rem 0;
+}
+
+.m-2 {
     margin: 2rem;
 }
 
-.grey{
+.grey {
     color: grey;
 }
 
 /* #endregion utilities */
 
 /* #region debug */
-.debug .menu-left, 
+.debug .menu-left,
 .debug .menu-right {
     height: 80px;
     background-color: var(--db-green);
     width: 50%;
 }
 
-.debug .container-80{
+.debug .container-80 {
     height: 700px;
     background-color: #0093ce;
 }
 
-.debug .col-4{
+.debug .col-4 {
     padding: 1rem;
     height: 800px;
     background-color: #61082b;
 }
 
-.debug .col-2{
+.debug .col-2 {
     padding: 1rem;
     height: 300px;
     background-color: #6eb832;
 }
 
-.debug .col-12{
+.debug .col-12 {
     margin: auto;
     height: 300px;
     background-color: #811478;
 }
 
 
-.debug .partners img{
+.debug .partners img {
     height: 600px;
     width: 60%;
     background-color: #0061ff;
 }
 
-.debug .content{
+.debug .content {
     height: 600px;
     width: 40%;
     background-color: #ffd830;
 }
 
-.debug .users .container-70{
+.debug .users .container-70 {
     height: 300px;
     background-color: #0d2481;
 }
+
 /* #endregion debug */
 
 /* #region header */
 
-.menu-left{
+.menu-left {
     width: 50%;
     align-items: center;
     padding: 1rem;
 }
 
-.menu-right{
+.menu-right {
     width: 50%;
     justify-content: end;
     align-items: center;
     padding: 1rem;
 }
 
-.d-flex li{
+.d-flex li {
     padding: 0 1rem;
     list-style: none;
 }
 
-.d-flex a{
+.d-flex a {
     text-decoration: none;
 }
 
-.btn-small{
+.btn-small {
     background-color: #0061ff;
     color: #ffffff;
     padding: 0.3rem 0.6rem;
     text-decoration: none;
 }
 
-.btn{
+.btn {
     background-color: #0061ff;
     color: #ffffff;
     padding: 0.6rem 1rem;
 }
 
+.btn-black {
+    background-color: white;
+    color: black;
+    padding: 0.6rem 1rem;
+    border: 1px solid black;
+}
+
 /* #endregion header */
 
 /* #region mian */
-.jumbotron{
+.jumbotron {
     background-color: #b4d0e7;
     background-position: 90%;
 }
 
-.jumbotron .container-80{
+.jumbotron .container-80 {
     margin-bottom: 2rem;
 }
 
-.jumbotron h1{
+.jumbotron h1 {
     padding: 2rem 0;
     font-weight: 800;
     font-size: 4rem;
 }
 
-.jumbo-image{
+.jumbo-image {
     width: 100%;
 }
 
-.plans h1{
+.plans h1 {
     margin-left: 2rem;
     margin-top: 5rem;
     font-size: 3rem;
 }
 
-.input{
+.input {
     margin: 2rem 0;
 }
 
-.input input{
+.input input {
     margin-left: 2rem;
 }
 
-.card{
+.card {
     height: 100%;
     border: 1px solid grey;
 }
 
-.group{
+.group {
     border-bottom: 1px solid grey;
     padding: 0.4rem;
     text-align: center;
 }
 
-.plan-type{
+.plan-type {
     line-height: 2.5rem;
 }
 
-.plan-offer .row, .options .row{
+.plan-offer .row,
+.options .row {
     padding: 0.5rem 0;
 }
 
-.button{
+.button {
     text-align: center;
     margin-bottom: 2rem;
 }
 
-.plans .col-4{
+.plans .col-4 {
     margin: 2rem;
 }
 
-.buy-now a{
+.buy-now a {
     text-decoration: underline;
     color: #36b5e7;
 }
 
-.options i{
+.options i {
     color: var(--db-buttons);
 }
 
-.enterprise p{
+.enterprise p {
     margin-top: 2rem;
 }
 
-.enterprise .col-4{
+.enterprise .col-4 {
     justify-content: end;
     height: 10%;
 }
 
+.partners{
+    margin: 3rem 0;
+}
+
+.partners .col-4 {
+    margin: 2rem
+}
 
 
 
