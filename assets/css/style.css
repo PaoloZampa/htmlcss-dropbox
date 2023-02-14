@@ -188,6 +188,8 @@ body {
 /* #endregion header */
 
 /* #region mian */
+
+/* jumbo */
 .jumbotron {
     background-color: #b4d0e7;
     background-position: 90%;
@@ -207,6 +209,8 @@ body {
     width: 100%;
 }
 
+/* plans */
+
 .plans h1 {
     margin-left: 2rem;
     margin-top: 5rem;
@@ -221,7 +225,7 @@ body {
     margin-left: 2rem;
 }
 
-.card {
+.plans .card {
     height: 100%;
     border: 1px solid grey;
 }
@@ -268,12 +272,34 @@ body {
     height: 10%;
 }
 
-.partners{
+/* partners */
+
+.partners {
     margin: 3rem 0;
 }
 
 .partners .col-4 {
     margin: 2rem
+}
+
+/* more */
+
+.more h1 {
+    margin-left: 2rem;
+    margin-top: 5rem;
+    font-size: 2.5rem;
+}
+
+.more img {
+    width: 100%;
+}
+
+.more .card {
+    padding: 2rem;
+}
+
+.more p {
+    margin-top: 2rem;
 }
 
 
