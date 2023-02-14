@@ -175,6 +175,12 @@ body {
     list-style: none;
 }
 
+.container-95 a:hover {
+    color: rgb(1, 194, 253);
+    border-bottom: 5px solid rgb(1, 194, 253);
+}
+
+
 .d-flex a {
     text-decoration: none;
 }
@@ -247,9 +253,9 @@ img.jumbo-image.ptb-1 {
     height: 100%;
     border: 1px solid grey;
     -webkit-box-shadow: 11px 15px 41px -9px #000000;
--moz-box-shadow: 11px 15px 41px -9px #000000;
--o-box-shadow: 11px 15px 41px -9px #000000;
-box-shadow: 11px 15px 41px -9px #000000;
+    -moz-box-shadow: 11px 15px 41px -9px #000000;
+    -o-box-shadow: 11px 15px 41px -9px #000000;
+    box-shadow: 11px 15px 41px -9px #000000;
 }
 
 .group {
