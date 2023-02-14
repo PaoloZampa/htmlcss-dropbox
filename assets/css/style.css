@@ -432,7 +432,7 @@ img.jumbo-image.ptb-1 {
     padding: 2rem;
 }
 
-.faq h1{
+.faq h1 {
     font-size: 2.5rem;
     margin: 4rem 0;
 }
@@ -476,7 +476,7 @@ img.jumbo-image.ptb-1 {
     padding-bottom: 1rem;
 }
 
-.answer::before{
+.answer::before {
     content: "";
     position: absolute;
     width: 0.6rem;
@@ -486,29 +486,29 @@ img.jumbo-image.ptb-1 {
     transform: translateY(-50%);
 }
 
-.answer img{
+.answer img {
     padding: 1rem;
 }
 
-.answer strong{
+.answer strong {
     font-size: 2rem;
 }
 
-.answer p{
+.answer p {
     padding: 2rem;
     font-size: 1.5rem;
     color: black;
 }
 
-.accordion-item:target .answer{
+.accordion-item:target .answer {
     max-height: 300px;
 }
 
-.accordion-item:target .accordion-link .fa-plus{
+.accordion-item:target .accordion-link .fa-plus {
     display: none;
 }
 
-.accordion-item:target .accordion-link .fa-minus{
+.accordion-item:target .accordion-link .fa-minus {
     display: block;
 }
 
@@ -516,6 +516,39 @@ img.jumbo-image.ptb-1 {
 
 /* #region footer */
 
+#app-footer {
+    background-color: #000000;
+}
 
+.col-footer {
+    padding: 4rem 1rem;
+    line-height: 3rem;
+    width: calc(100% / 5);
+}
+
+.col-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.col-footer li {
+    list-style: none;
+}
+
+.col-footer h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hr-footer {
+    margin-left: 1rem;
+    width: 10%;
+}
+
+.lenguage {
+    padding: 4rem 1rem;
+    color: lightgrey;
+}
 
 /* #endregion footer */
