@@ -39,11 +39,33 @@ body {
 .container-80 {
     width: 80%;
     margin: auto;
+    max-width: 1200px;
 }
 
 .container-70 {
     width: 80%;
     margin: auto;
+    max-width: 1152px;
+}
+
+.col-4{
+    width: calc(100% / 12 * 4);
+}
+
+.col-2{
+    width: 50%;
+}
+
+.col-8{
+    width: calc(100% / 12 * 8);
+}
+
+.col-12{
+    width: calc(100% / 12 * 12);
+}
+
+.ptb-1{
+    padding: 1rem 0;
 }
 
 /* #endregion utilities */
@@ -126,6 +148,7 @@ body {
     background-color: #0061ff;
     color: #ffffff;
     padding: 0.3rem 0.6rem;
+    text-decoration: none;
 }
 
 
@@ -136,17 +159,20 @@ body {
     background-color: #b4d0e7;
 }
 
-.col-4{
-    width: calc(100% / 12 * 4);
+.jumbotron .container-80{
+    margin-bottom: -2rem;
 }
 
-.col-2{
-    width: 50%;
+.jumbotron h1{
+    padding: 2rem 0;
+    font-weight: 800;
+    font-size: 4rem;
 }
 
-.col-12{
-    width: calc(100% / 12 * 12);
+.jumbo-image{
+    width: 100%;
 }
+
 /* #endregion mian */
 
 /* #region footer */
