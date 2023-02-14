@@ -206,7 +206,7 @@ body {
 /* jumbo */
 .jumbotron {
     background-color: #b4d0e7;
-    background-position: 90%;
+    margin-bottom: 130px;
 }
 
 .jumbotron .container-80 {
@@ -221,6 +221,10 @@ body {
 
 .jumbo-image {
     width: 100%;
+}
+
+img.jumbo-image.ptb-1 {
+    margin-bottom: -80px;
 }
 
 /* plans */
@@ -242,6 +246,10 @@ body {
 .plans .card {
     height: 100%;
     border: 1px solid grey;
+    -webkit-box-shadow: 11px 15px 41px -9px #000000;
+-moz-box-shadow: 11px 15px 41px -9px #000000;
+-o-box-shadow: 11px 15px 41px -9px #000000;
+box-shadow: 11px 15px 41px -9px #000000;
 }
 
 .group {
@@ -406,6 +414,7 @@ body {
     color: black;
     padding: 0.6rem 3rem;
 }
+
 
 
 /* #endregion mian */
