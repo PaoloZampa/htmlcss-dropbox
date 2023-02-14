@@ -170,7 +170,7 @@ body {
     padding: 1rem;
 }
 
-.d-flex li {
+#app-header li {
     padding: 0 1rem;
     list-style: none;
 }
@@ -425,6 +425,7 @@ img.jumbo-image.ptb-1 {
 
 .faq {
     display: flex;
+    margin-bottom: 5rem;
 }
 
 .faq .container-70 {
@@ -514,4 +515,7 @@ img.jumbo-image.ptb-1 {
 /* #endregion mian */
 
 /* #region footer */
+
+
+
 /* #endregion footer */
