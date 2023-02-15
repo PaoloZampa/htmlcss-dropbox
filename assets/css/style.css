@@ -497,8 +497,8 @@ img.jumbo-image.ptb-1 {
     transform: translateY(-50%);
 }
 
-.answer img {
-    padding: 1rem;
+.answer video {
+    padding: 1rem 2rem;
 }
 
 .answer strong {
@@ -512,7 +512,7 @@ img.jumbo-image.ptb-1 {
 }
 
 .accordion-item:target .answer {
-    max-height: 300px;
+    max-height: 700px;
 }
 
 .accordion-item:target .accordion-link .fa-plus {
