@@ -1,3 +1,5 @@
+/* #region common */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +9,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* #endregion common */
 
 /* #region utilities */
 :root {
