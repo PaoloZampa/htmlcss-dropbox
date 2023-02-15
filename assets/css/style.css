@@ -180,6 +180,9 @@ body {
     border-bottom: 5px solid rgb(1, 194, 253);
 }
 
+header a {
+    padding: 1rem 0;
+}
 
 .d-flex a {
     text-decoration: none;
