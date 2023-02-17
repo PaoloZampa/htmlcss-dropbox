@@ -375,7 +375,7 @@ img.jumbo-image.ptb-1 {
 .brand [class^="card"] {
     /* min-height: 500px;
     height: 100%; */
-    height: 300px;
+    aspect-ratio: 1 / 1;
     justify-content: center;
     align-items: center;
 }
