@@ -368,7 +368,7 @@ img.jumbo-image.ptb-1 {
 
 .col-6 img {
     width: 80%;
-    padding: 3rem;
+    /* padding: 3rem; */
     filter: invert(1);
 }
 
